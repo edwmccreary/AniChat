@@ -1,0 +1,138 @@
+.test {
+  width: 25%;
+}
+
+.conversation-container {
+  width: 25rem;
+}
+
+.text-box {
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: bisque;
+  margin-bottom: 0.5em;
+  overflow-wrap: break-word;
+  padding: 2px;
+  
+}
+
+.text-box-container {
+  max-width: 100%;
+}
+
+.draw-button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+}
+
+.draw-window {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: -256px;
+  border: 1px solid black;
+  /* background-color: rgba(255, 255, 255, 0.534); */
+}
+
+.draw-window-closed {
+  display: none;
+}
+
+.text-area {
+  width: 15rem;
+  height: 4rem;
+  border: none;
+  background-color: bisque;
+  resize: none;
+}
+
+.chat-controls {
+  display: flex;
+  position: relative;
+}
+
+.picture-container {
+  position: relative;
+  border: 1px solid black;
+  width: 256px;
+  height: 256px;
+}
+
+.picture-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.drawing-window-container {
+  width: 256px;
+  height: 256px;
+  position: absolute;
+  top: -256px;
+  border: 1px solid black;
+  background-color: rgb(170, 250, 213);
+}
+
+.drawing-window-controls {
+  width: 100%;
+  height: 32px;
+  position: absolute;
+  top: -32px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawing-control-icon {
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+}
+
+.drawing-control-icon2 {
+  width: 32px;
+  height: 32px;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.drawing-control-group {
+  display: flex;
+  position: relative;
+}
+
+.icon-dropdown-placeHolder {
+  width: 32px;
+  height: 32px;
+  background-color: rgb(197, 197, 255);
+}
+
+.icon-dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.pen-slider {
+  position: absolute;
+  top: 32px;
+  height: 96px;
+  width: 32px;
+}
+
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* Chromium */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
+}
+
+.color-selector {
+  position: absolute;
+  top: 32px;
+  right: 0px;
+  border: 1px solid black;
+}
